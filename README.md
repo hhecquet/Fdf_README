@@ -17,18 +17,19 @@ What I had to do:
 * Apply isometric projection to simulate 3D depth on a 2D plane
 * Create a window and draw the map using the **MiniLibX** library
 * Add zooming, panning, and height scaling capabilities
-* To accomplish this, I had to:
-  * Convert 3D coordinates (x, y, z) to 2D screen positions
-  * Handle different keyboard inputs to control the view (e.g., movement, zoom)
-  * Manage efficient screen redraws and window events
-  * Ensure correct scaling and centering of the map regardless of size
+  
+To accomplish this, I had to:
+* Convert 3D coordinates (x, y, z) to 2D screen positions
+* Handle different keyboard inputs to control the view (e.g., movement, zoom)
+* Manage efficient screen redraws and window events
+* Ensure correct scaling and centering of the map regardless of size
 
 Bonus Part: Visual Enhancements
 * For the bonus part, I extended Fdf with:
-* Color gradients based on altitude values to improve depth perception
-* Dynamic projection switching (e.g., between isometric and parallel views)
-* Mouse controls for more interactive map navigation
-* Smooth scaling and rotation features for a better user experience
+  * Color gradients based on altitude values to improve depth perception
+  * Dynamic projection switching (e.g., between isometric and parallel views)
+  * Mouse controls for more interactive map navigation
+  * Smooth scaling and rotation features for a better user experience
 
 What I Learned:
 * Fundamentals of computer graphics and 3D-to-2D projection
